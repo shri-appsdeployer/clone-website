@@ -162,9 +162,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
 }
-.section-2 .right #card1 p{
-    /* margin-bottom: 100px; */
-}
+
 .section-2 .right #card2{
     background-color: #fff;
 }
