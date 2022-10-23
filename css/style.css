@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.transform-right{
+   transform: rotate(5deg);
+}
 /* nav bar  */
 .NavBar{
     height: 100px;
@@ -332,9 +335,6 @@ a{
     height: 300px;
     object-fit: cover;
     border-radius: 50px 50px 0px 0px;
-}
-.team-card span a{
-    
 }
 
 /* Our Team */
