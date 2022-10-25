@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: Inter;
+    --rotateR: 5deg;
+    --rotateL:-5deg;
+    --scale:1.05;
 
 }
 body{
@@ -10,9 +13,16 @@ body{
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
-.transform-right{
-   transform: rotate(5deg);
+.transform-right:hover{
+   transform: rotate(var(--rotateR,0)) scale(var(--scale,0));
+   transition: 0.3s;
+}
+.tranform-left:hover{
+    transform: rotate(var(--rotateL,0)) scale(var(--scale,0));
+    box-sizing: border-box;
+    transition: 0.3s;
 }
 /* nav bar  */
 .NavBar{
